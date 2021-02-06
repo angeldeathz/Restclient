@@ -17,6 +17,7 @@ namespace Restclient.Test
 
             Assert.NotNull(response.Response);
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+
         }
 
         #endregion
