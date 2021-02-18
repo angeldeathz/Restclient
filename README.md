@@ -16,13 +16,13 @@ I like create code, help another people to build simplest and beauty code.
 
 # Usage
 ```
-var client = new RestClient(); <br/>
+var client = new RestClient();
 var response = await client.GetAsync<THE_CLASS_TO_DESERIALIZE>(YOUR_URL);
 ```
 _How you can see, you can pass some class to deserialize the response._
 
 _RestClient was made for async/await usage, but you can use it for synchronous operations easily, for Example:_
 ```
-var client = new RestClient();<br/>
-var response = client.GetAsync<THE_CLASS_TO_DESERIALIZE>(YOUR_URL).Result;<br/>
+var client = new RestClient();
+var response = client.GetAsync<THE_CLASS_TO_DESERIALIZE>(YOUR_URL).Result;
 ```
