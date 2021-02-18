@@ -1,9 +1,9 @@
 # Restclient
-This is a simple Library that makes REST Request to any API Rest.
+_This is a simple Library that makes REST Request to any API Rest._
 
-# Why RestClient?
-This Library uses the HttpClient dotnet class and this library abstracts the usage of HttpClient.
-So, the usage is simplest.
+## Why RestClient?
+_This Library uses the HttpClient dotnet class and this library abstracts the usage of HttpClient.
+So, the usage is simplest._
 
 # Compatibility
 This Library is compatible with just NET 5.0, but, soon will be availible for dotnet core 3.1 and
